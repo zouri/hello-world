@@ -1,0 +1,20 @@
+# time 模块常用转换记录
+
+# 基础介绍
+time.time()     # 当前时间时间戳
+
+time.localtime('时间戳')        # 将时间戳转换为本地时间
+
+time.strftime('%Y-%m-%d', '本地时间')      # 将本地时间转换为想要的可视化格式
+
+time.strptime('2018-07-31', '%Y-%m-%d')     # 将可视化时间格式转换为本地时间
+
+time.mktime('本地时间')     # 将本地时间转换为时间戳
+
+
+# 常用时间操作组合
+
+# 获得当前指定格式的时间
+time.strftime('%Y-%m-%d %H:%M', time.localtime(time.time()))
+
+# 当前

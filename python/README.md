@@ -4,6 +4,8 @@ description: 常用的 Python 模块的介绍
 
 # Python
 
+## \*\*\*\*[**Python 之禅**](https://www.python.org/dev/peps/pep-0020/)\*\*\*\*
+
 ### Beautiful is better than ugly.
 
 优美胜于丑陋（Python以编写优美的代码为目标）
